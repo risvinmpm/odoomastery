@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 03 Mar 2025 15:16:50 at https://pixydrops.com/linoorhtml/index-13.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://pixydrops.com/linoorhtml/index-13.html -O1 "C:\My Web Sites\odoomastery" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:29:33	Error: 	"Not Found" (404) at link https://pixydrops.com/linoorhtml/images/update-15-08-2024/shapes/why-choose-thirteen-shape-bg.png (from https://pixydrops.com/linoorhtml/index-13.html)
+15:29:33	Error: 	"Not Found" (404) at link https://pixydrops.com/linoorhtml/portfolio-single.html.html (from https://pixydrops.com/linoorhtml/index-13.html)
+15:29:35	Error: 	"Not Found" (404) at link https://pixydrops.com/linoorhtml/css/owl.video.play.png (from https://pixydrops.com/linoorhtml/css/owl.css)
+15:29:35	Error: 	"Not Found" (404) at link https://pixydrops.com/linoorhtml/css/images/ui-icons_777620_256x240.png (from https://pixydrops.com/linoorhtml/css/jquery-ui.css)
+15:29:35	Error: 	"Not Found" (404) at link https://pixydrops.com/linoorhtml/css/images/ui-icons_cc0000_256x240.png (from https://pixydrops.com/linoorhtml/css/jquery-ui.css)
+15:29:42	Error: 	"Not Found" (404) at link https://pixydrops.com/images/colors/color-7/icons/preloader.png (from https://pixydrops.com/linoorhtml/css/colors/color-7.css)
+15:29:42	Error: 	"Not Found" (404) at link https://pixydrops.com/images/colors/color-8/icons/preloader.png (from https://pixydrops.com/linoorhtml/css/colors/color-8.css)
+15:29:42	Error: 	"Not Found" (404) at link https://pixydrops.com/images/colors/color-9/icons/preloader.png (from https://pixydrops.com/linoorhtml/css/colors/color-9.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 52 seconds : 693 links scanned, 684 files written (40452416 bytes overall) [30550355 bytes received at 39572 bytes/sec], 12755966 bytes transferred using HTTP compression in 155 files, ratio 19%, 138.6 requests per connection
+(8 errors, 0 warnings, 0 messages)
