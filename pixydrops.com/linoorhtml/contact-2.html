@@ -217,104 +217,114 @@
 						<div class="col-lg-8">
 							<div class="form-box">
 								<div class="default-form">
-									<form method="post" action="https://pixydrops.com/linoorhtml/sendemail.php" id="contact-form">
+									<form method="post" action="https://api.web3forms.com/submit" id="contact-form">
+										<input type="hidden" name="access_key" value="47a58477-d5a1-472e-8267-0c9f42c06573">
 										<div class="row clearfix">
 											<div class="form-group col-lg-12 col-md-12 col-sm-12">
 												<div class="field-inner">
-													<input type="text" name="username" value="" placeholder="Your Name"
-														required="">
+													<input type="text" name="username" value="" placeholder="Your Name" required="">
 												</div>
 											</div>
 											<div class="form-group col-lg-6 col-md-6 col-sm-12">
 												<div class="field-inner">
-													<input type="email" name="email" value="" placeholder="Email Address"
-														required="">
+													<input type="email" name="email" value="" placeholder="Email Address" required="">
 												</div>
 											</div>
 											<div class="form-group col-lg-2 col-md-2 col-sm-2">
 												<div class="field-inner">
-													<input type="text" name="Phone-code" value="" placeholder="+91"
-														required="">
+													<input type="text" name="Phone-code" value="" placeholder="+91" required="">
 												</div>
 											</div>
 											<div class="form-group col-lg-4 col-md-4 col-sm-4">
 												<div class="field-inner">
-													<input type="text" name="phone-number" value="" placeholder="000-000-000"
-														required="">
+													<input type="text" name="phone-number" value="" placeholder="000-000-000" required="">
 												</div>
 											</div>
-											<P>Select the services you are looking for*</P>
+									
+											<p>Select the services you are looking for*</p>
+											
+											<!-- Group radio buttons by name -->
 											<div class="form-group col-lg-6 col-md-6 col-sm-12">
 												<div class="form-check">
-													<input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
-													<label class="form-check-label" for="flexRadioDefault1">
-													  Odoo ERP development
+													<input class="form-check-input" type="radio" name="service" id="service1" value="Odoo ERP development">
+													<label class="form-check-label" for="service1">
+														Odoo ERP development
 													</label>
-												  </div>
+												</div>
 											</div>
+											
 											<div class="form-group col-lg-6 col-md-6 col-sm-12">
 												<div class="form-check">
-													<input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2">
-													<label class="form-check-label" for="flexRadioDefault1">
+													<input class="form-check-input" type="radio" name="service" id="service2" value="Odoo Support & Maintenance">
+													<label class="form-check-label" for="service2">
 														Odoo Support & Maintenance
 													</label>
-												  </div>
-											</div>
-											<div class="form-group col-lg-6 col-md-6 col-sm-12">
-												<div class="form-check">
-													<input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3">
-													<label class="form-check-label" for="flexRadioDefault1">
-														Odoo Cloud Hosting
-													</label>
-												  </div>
-											</div>
-											<div class="form-group col-lg-6 col-md-6 col-sm-12">
-												<div class="form-check">
-													<input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4">
-													<label class="form-check-label" for="flexRadioDefault1">
-														Odoo Business Process Automation
-													</label>
-												  </div>
-											</div>
-											<P>Estimated budget</P>
-											<div class="form-group col-lg-6 col-md-6 col-sm-12">
-												<div class="form-check">
-													<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-													<label class="form-check-label" for="flexRadioDefault1">
-													  $500-1000
-													</label>
-												  </div>
-											</div>
-											<div class="form-group col-lg-6 col-md-6 col-sm-12">
-												<div class="form-check">
-													<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-													<label class="form-check-label" for="flexRadioDefault1">
-														$10000-25000
-													</label>
-												  </div>
-											</div>
-											<div class="form-group col-lg-6 col-md-6 col-sm-12">
-												<div class="form-check">
-													<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-													<label class="form-check-label" for="flexRadioDefault1">
-														$25000-50000
-													</label>
-												  </div>
-											</div>
-											<div class="form-group col-lg-6 col-md-6 col-sm-12">
-												<div class="form-check">
-													<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-													<label class="form-check-label" for="flexRadioDefault1">
-													 Above $50000
-													</label>
-												  </div>
-											</div>
-											<div class="form-group col-lg-12 col-md-12 col-sm-12">
-												<div class="field-inner">
-													<textarea name="message" placeholder="Write Message"
-														required=""></textarea>
 												</div>
 											</div>
+											
+											<div class="form-group col-lg-6 col-md-6 col-sm-12">
+												<div class="form-check">
+													<input class="form-check-input" type="radio" name="service" id="service3" value="Odoo Cloud Hosting">
+													<label class="form-check-label" for="service3">
+														Odoo Cloud Hosting
+													</label>
+												</div>
+											</div>
+											
+											<div class="form-group col-lg-6 col-md-6 col-sm-12">
+												<div class="form-check">
+													<input class="form-check-input" type="radio" name="service" id="service4" value="Odoo Business Process Automation">
+													<label class="form-check-label" for="service4">
+														Odoo Business Process Automation
+													</label>
+												</div>
+											</div>
+									
+											<p>Estimated budget</p>
+									
+											<!-- Group radio buttons by name -->
+											<div class="form-group col-lg-6 col-md-6 col-sm-12">
+												<div class="form-check">
+													<input class="form-check-input" type="radio" name="budget" id="budget1" value="$500-1000">
+													<label class="form-check-label" for="budget1">
+														$500-1000
+													</label>
+												</div>
+											</div>
+											
+											<div class="form-group col-lg-6 col-md-6 col-sm-12">
+												<div class="form-check">
+													<input class="form-check-input" type="radio" name="budget" id="budget2" value="$10000-25000">
+													<label class="form-check-label" for="budget2">
+														$10000-25000
+													</label>
+												</div>
+											</div>
+											
+											<div class="form-group col-lg-6 col-md-6 col-sm-12">
+												<div class="form-check">
+													<input class="form-check-input" type="radio" name="budget" id="budget3" value="$25000-50000">
+													<label class="form-check-label" for="budget3">
+														$25000-50000
+													</label>
+												</div>
+											</div>
+											
+											<div class="form-group col-lg-6 col-md-6 col-sm-12">
+												<div class="form-check">
+													<input class="form-check-input" type="radio" name="budget" id="budget4" value="Above $50000">
+													<label class="form-check-label" for="budget4">
+														Above $50000
+													</label>
+												</div>
+											</div>
+									
+											<div class="form-group col-lg-12 col-md-12 col-sm-12">
+												<div class="field-inner">
+													<textarea name="message" placeholder="Write Message" required=""></textarea>
+												</div>
+											</div>
+											
 											<div class="form-group col-lg-12 col-md-12 col-sm-12">
 												<button class="theme-btn btn-style-one">
 													<i class="btn-curve"></i>
@@ -323,6 +333,7 @@
 											</div>
 										</div>
 									</form>
+									
 								</div>
 							</div>
 						</div><!-- /.col-lg-8 -->
