@@ -31109,3 +31109,9 @@ img.lazy-image.loaded {
 #privacy-policy ul li {
   list-style-type: disc;
 }
+
+@media(max-width: 991px) {
+  .sponsors-section-two h2 {
+    font-size: 36px;
+  }
+}
